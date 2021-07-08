@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+P{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: auto;
+}
+
+body{
+    background:rgb(1, 49, 21);
+    
+}
+
+h1, h2{
+ 
+    color: #fff;
+   
+    text-align: center;
+}
+
+div.galeria {
+    margin: 30px 20px;
+    box-shadow: 0 4px 8px 0 rgb(68, 178, 214), 0 6px 20px rgba(0,0,0,0.19);
+    float: left;
+    width: 600px;
+    right: 300PX;
+    border-radius: 5px;
+}
+div.galeria img{
+    background: black;
+    width: 50%;
+    
+}
+
+div.galeria .foto{
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+ 
+
+div.pie{
+    text-align: center;
+   
+    padding: 10px;
+    color: white;
+}
+
+div.pie:hover{
+    color: yellow;
+}
+
+
+
